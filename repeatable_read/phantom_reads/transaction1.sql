@@ -3,7 +3,6 @@ SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ;
 START TRANSACTION ;
 
 SELECT id FROM Accounts where amount > 1000;
-# Should result in id: 2,3,4,5
 
 SELECT id FROM Accounts where amount > 1000;
 
