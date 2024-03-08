@@ -4,6 +4,7 @@ START TRANSACTION ;
 
 SELECT id FROM Accounts where amount > 1000;
 
+DO SLEEP(15);
 SELECT id FROM Accounts where amount > 1000;
 
 COMMIT;
